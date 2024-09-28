@@ -131,9 +131,8 @@ try {
       storeChatInLocalStorage(userMsg, responseApi);
 
       incomingMsgHtml();
-      console.log(responseApi);
     } catch (e) {
-      console.error("Error fetching API response:", e);
+      alert(e.message);
     }
   };
 
