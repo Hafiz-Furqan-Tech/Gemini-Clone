@@ -129,7 +129,6 @@ try {
 
       // Save chat to localStorage
       storeChatInLocalStorage(userMsg, responseApi);
-
       incomingMsgHtml();
     } catch (e) {
       alert(e.message);
