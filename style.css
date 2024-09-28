@@ -651,6 +651,10 @@ body.darkmode .userName h3 {
 
 @media screen and (min-width: 1500px) {
   .prompt {
-    height: 18rem;
+    height: 13rem;
+  }
+  .card{
+    height: 60%;
+    width: 25%;
   }
 }
